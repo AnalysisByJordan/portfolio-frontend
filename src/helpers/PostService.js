@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = process.env.VUE_APP_POST_URL;
+const url = 'https://jr-portfolio-api.herokuapp.com/api/posts';
 
 class PostService {
   // Create Posts
