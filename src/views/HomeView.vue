@@ -1,7 +1,12 @@
 <template>
   <v-container fill-height fluid>
     <v-row justify="center">
-      <v-col cols="4" class="d-flex flex-column justify-center align-center">
+      <v-col
+        cols="12"
+        md="4"
+        lg="4"
+        class="d-flex flex-column justify-center align-center"
+      >
         <animated-shape></animated-shape>
         <h1>Jordan Robey</h1>
         <div class="links">
@@ -19,7 +24,7 @@
           ></a>
         </div>
       </v-col>
-      <v-col cols="4">
+      <v-col cols="12" md="4" lg="4">
         <h1>About me:</h1>
         <p>
           Software Engineer currently working on a SaaS platform built with
@@ -116,5 +121,20 @@ p {
   color: rgb(255, 255, 255);
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+@media (max-width: 600px) {
+  .links {
+    margin-top: 1rem;
+  }
+  .logo {
+    margin-right: 1rem;
+  }
+  .bio {
+    width: 100%;
+  }
+  v-col {
+    padding: 0 1rem;
+  }
 }
 </style>
