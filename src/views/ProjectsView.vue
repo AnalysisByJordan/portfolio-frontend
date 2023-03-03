@@ -9,7 +9,7 @@
                 ><a :href="project.site" target="_blank"
                   ><v-img
                     v-bind:src="require('../assets/' + project.image)"
-                    contain="True"
+                    :contain="true"
                   ></v-img>
                 </a>
                 <v-card-title>

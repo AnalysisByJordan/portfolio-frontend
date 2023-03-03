@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = 'https://jr-portfolio-api.herokuapp.com/api/posts';
+const url = 'https://8tsrpin40d.execute-api.us-east-1.amazonaws.com/api/posts';
 
 class PostService {
   // Create Posts
