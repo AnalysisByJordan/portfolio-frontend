@@ -6,8 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "node server.js",
-    "deploy": "aws --profile jr-portfolio-frontend-user --region us-east-1 s3 sync ./dist s3://jr-portfolio-frontend --delete"
+    "deploy": "npm run build && aws --profile jr-portfolio-frontend-user --region us-east-1 s3 sync ./dist s3://jr-portfolio-frontend --delete"
   },
   "dependencies": {
     "axios": "^1.2.0",

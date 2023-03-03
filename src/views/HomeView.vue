@@ -22,7 +22,7 @@
       <v-col cols="4">
         <h1>About me:</h1>
         <p>
-          Software Engineer currently working on a SaaS platform built on
+          Software Engineer currently working on a SaaS platform built with
           <span
             ><a
               style="text-decoration: none"
