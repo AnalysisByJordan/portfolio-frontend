@@ -27,7 +27,7 @@ export default {
   methods: {
     init() {
       this.camera = new THREE.PerspectiveCamera(
-        30,
+        50,
         window.innerWidth / window.innerHeight,
         0.01,
         10
@@ -46,7 +46,7 @@ export default {
         antialias: true,
         alpha: true,
       });
-      this.renderer.setSize(window.innerWidth / 7, window.innerHeight / 7);
+      this.renderer.setSize(window.innerWidth / 5, window.innerHeight / 5);
       this.$refs.canvas.appendChild(this.renderer.domElement);
     },
     // onWindowResize() {

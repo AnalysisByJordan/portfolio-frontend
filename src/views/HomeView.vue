@@ -25,7 +25,7 @@
         </div>
       </v-col>
       <v-col cols="12" md="4" lg="4">
-        <h1>About me:</h1>
+        <h1 class="about-me">About me:</h1>
         <p>
           Software Engineer currently working on a SaaS platform built with
           <span
@@ -121,20 +121,5 @@ p {
   color: rgb(255, 255, 255);
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-@media (max-width: 600px) {
-  .links {
-    margin-top: 1rem;
-  }
-  .logo {
-    margin-right: 1rem;
-  }
-  .bio {
-    width: 100%;
-  }
-  v-col {
-    padding: 0 1rem;
-  }
 }
 </style>
